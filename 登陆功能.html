@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>登录</title>
+<script>
+function displayResult(){
+	var x=document.getElementById("reset").value;
+	alert(x);
+}
+</script>
+</head>
+<body>
+用户：<input type="text" id="username"/>
+	<input type="button"  onclick="login()" value="登录"/>
+	<br>
+	<br>
+<form>
+密码：<input type="123"id="password"/>
+<input type="reset" id="reset" value="清除密码">
+</form>
+ <script type="text/javascript">
+    function login(){
+        var username=window.document.getElementById("username").value;
+        var password=window.document.getElementById("password").value;
+    
+        if(password=="123")
+            {
+            alert("登录成功！");
+            }
+         else{
+                alert("登录失败！");
+                return false;
+              
+            }
+         
+   
+}
+    
+    </script>
+
+</body>
+</html>
